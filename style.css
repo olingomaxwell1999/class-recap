@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  gap: 20px;
+}
+.main .text-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main .text-side button {
+  width: 200px;
+}
+.main .image-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .image-side img {
+  height: 400px !important;
+  width: 400px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 420px) {
+  .main {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .main .image-side {
+    display: none !important;
+  }
+}/*# sourceMappingURL=style.css.map */
