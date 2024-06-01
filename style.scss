@@ -32,6 +32,20 @@
     }
 }
 
+.area-two{
+    background-image: url(./public/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 @media only screen and (max-width: 420px) {
     .main{
         height: fit-content;
